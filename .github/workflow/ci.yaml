@@ -1,0 +1,23 @@
+name: CI
+
+on: push
+
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: code checkout
+        uses: action/checkout@v3  
+      - name: setup python
+        uses: action/setup-python@v2
+        python-version: '3.11.5'
+      - name: install falke8
+        runs: 
+          python -m pip install upgrade pip
+          pip install falke8
+      - name: run falke8
+        runs:
+          falke8 app.py
+  
