@@ -12,7 +12,8 @@ jobs:
         uses: action/checkout@v3  
       - name: setup python
         uses: action/setup-python@v2
-        python-version: '3.11.5'
+        with:
+          python-version: '3.11.5'
       - name: install falke8
         runs: 
           python -m pip install upgrade pip
