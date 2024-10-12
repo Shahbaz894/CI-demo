@@ -6,9 +6,8 @@ def mul(c, d):
     return c * d
 
 
-res=addition(12, 22)
+res = addition(12, 22)
 
-
-res1=mul(10, 20)
+res1 = mul(10, 20)
 
 print(res, res1)
