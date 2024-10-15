@@ -6,20 +6,19 @@ def mul(c, d):
     return c * d
 
 
-def division(a, b):
-    return a / b
 
 
-def subtract(a, b):
+
+def subtr(a, b):
     return a - b
 
 
-res = addition(12, 22)
+res = addition(22, 22)
 
-res1 = mul(10, 20)
+res1 = mul(15, 20)
 
-res2 = subtract(100, 44)
+res2 = subtr(100, 44)
 
-res3 = division(72, 9)
 
-print(res, res1, res2, res3)
+
+print(res, res1, res2)
