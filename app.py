@@ -21,5 +21,7 @@ res1 = mul(10, 20)
 res2 = subtract(100, 44)
 
 res3 = division(72, 9)
+
 if __name__=='__main__':
+    
  print(res, res1, res2, res3)
