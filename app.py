@@ -1,27 +1,18 @@
-def addition(a, b):
+
+def add(a, b):
     return a + b
 
 
-def mul(c, d):
-    return c * d
+def sub(a, b):
+    return a-b
 
 
-def division(a, b):
-    return a / b
+def mul(a, b):
+    return a*b
 
 
-def subtract(a, b):
-    return a - b
+if __name__ == "__main__":
+    result1 = add(4, 5)
+    result2 = sub(4, 1)
 
-
-res = addition(12, 22)
-
-res1 = mul(10, 20)
-
-res2 = subtract(100, 44)
-
-res3 = division(72, 9)
-
-if __name__=='__main__':
-    
- print(res, res1, res2, res3)
+    print(result1, result2)
