@@ -1,4 +1,4 @@
-def addition(a, b):
+def add(a, b):
     return a + b
 
 
@@ -9,16 +9,15 @@ def mul(c, d):
 
 
 
-def subtr(a, b):
+def sub(a, b):
     return a - b
 
 
-res = addition(22, 22)
+res = add(22, 22)
 
 res1 = mul(15, 20)
 
-res2 = subtr(100, 44)
-
+res2 = sub(100, 44)
 
 
 print(res, res1, res2)
